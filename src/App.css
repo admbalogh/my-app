@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+ul {
+  text-align: left;
+  color: bisque;
+  list-style: none;
+}
 
 .App-logo {
   height: 40vmin;
