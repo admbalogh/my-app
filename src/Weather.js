@@ -41,7 +41,7 @@ function Weather(props) {
       <div>
         {form}
         <ul>
-          <h3> See below the weather condtions for {weather.name}</h3>
+          <h4> The weather today in {weather.name}</h4>
           <li>Temperature: {Math.round(weather.temperature)} ºC</li>
           <li>Description: {weather.description}</li>
           <li>Humidity: {weather.humidity} %</li>
